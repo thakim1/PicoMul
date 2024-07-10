@@ -34,7 +34,9 @@ Additionally, the relative error of the approximated result compared to the accu
 for each of those 8 parameters configurations and visualized here:
 ![grafik](https://github.com/thakim1/PicoMul/verif.png)
 
-The underwhelming performance originates from the very crude low-level implementation of the approximate Fulladder.
+The underwhelming performance originates from the very crude low-level implementation of the approximate Fulladder. 
+However, as mentioned changing the 2bit multiplier or the 1bit adder can significantly change the results. 
+The goal was to evaluate the accuracy for the currently used low level adder/mutliplier combination.
 
 # License
 Copyright (c) 2024 Karel Rusy, Hakim Tayari, Marcus Meysel
@@ -60,5 +62,5 @@ SOFTWARE.
 # Acknolwedgements 
 Team: [Karel](https://github.com/KarelRusy), [Marcus](https://github.com/marcus-meysel), me 
 
-Special thanks to [Stefan](https://github.com/SteBaj/LDISPython) and [Chrisitan](https://github.com/christian-krieg) for providing us with a golden model for verification and for their support. 
+Special thanks to [Stefan](https://github.com/SteBaj/LDISPython) and [Christian](https://github.com/christian-krieg) for providing us with the golden model for verification and for their support. 
 

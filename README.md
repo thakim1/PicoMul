@@ -28,7 +28,7 @@ are tested: (with the 2x2 approx_mul back in place)
 
 The same 500 number pairs are also run through the Golden Model (Python implementation) and the outputs are compared.
 All 4000 tested values are identical and deemed sufficient for verification.
-The used files are stored in the "Verification" Folder.
+The used files are stored in the "Verification" sub-directory.
 
 Additionally, the relative error of the approximated result compared to the accurate multiplication is calculated
 for each of those 8 parameters configurations and visualized here:

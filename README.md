@@ -12,9 +12,6 @@ We developed a parametrizable approximate multiplier unit for the picoSoC based 
 Modifying the low level implementations of the 1bit adder and 2bit multiplier allows for a number of design tradeoffs. 
 You choose! 
 
-![video](https://github.com/thakim1/PicoMul/video.mp4)
-
-
 # Verification and Performance Evaluation
 To verify the correct behavior of the multiplier, 500 random number pairs are generated for the inputs a and b.
 In the first step, the 2x2 approx_mul is overwritten with a 2x2 accu_mul, and N4,N8,N16 are all set to 0. After

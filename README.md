@@ -32,7 +32,8 @@ The used files are stored in the "Verification" Folder.
 
 Additionally, the relative error of the approximated result compared to the accurate multiplication is calculated
 for each of those 8 parameters configurations and visualized here:
-![grafik](https://github.com/thakim1/PicoMul/verif.png)
+
+![verif](https://github.com/thakim1/PicoMul/assets/88373056/df4e5f1e-4e30-4b0b-b657-4adae656a7b8)
 
 The underwhelming performance originates from the very crude low-level implementation of the approximate Fulladder. 
 However, as mentioned changing the 2bit multiplier or the 1bit adder can significantly change the results. 

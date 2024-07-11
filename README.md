@@ -1,16 +1,7 @@
-## Digital Integrated Circuits Lab - SS 2024
 
-Useful links: 
-+ [Official Picorv32 Repo](https://github.com/YosysHQ/picorv32)
-+ [Fork Picorv32 Repo](https://github.com/sevjaeg/picorv32/tree/master)
-+ [Hardware Mockup](mockup.pdf)
-+ [FPGA Documentation](https://docs.icebreaker-fpga.org/hardware/icebreaker/)
 
 # What's it about? 
-
-We developed a parametrizable approximate multiplier unit for the picoSoC based on the picoRV32 RISC-V core. 
-Modifying the low level implementations of the 1bit adder and 2bit multiplier allows for a number of design tradeoffs. 
-You choose! 
+Based on the task description from [Christian](https://github.com/christian-krieg) and [Severin](https://github.com/sevjaeg), we developed a parametrizable approximate multiplier unit for the picoSoC using the picoRV32 RISC-V core throughout the 'Digital Integrated Circuits Lab' lecture at TUWien. By modifying the low-level implementations of the 1-bit adder and 2-bit multiplier, a number of design trade-offs are possible. You choose!
 
 # Verification and Performance Evaluation
 To verify the correct behavior of the multiplier, 500 random number pairs are generated for the inputs a and b.
@@ -65,3 +56,8 @@ Team: [Karel](https://github.com/KarelRusy), [Marcus](https://github.com/marcus-
 
 Special thanks to [Stefan](https://github.com/SteBaj/LDISPython) and [Christian](https://github.com/christian-krieg) for providing us with the golden model for verification and for their support. 
 
+Useful links: 
++ [Official Picorv32 Repo](https://github.com/YosysHQ/picorv32)
++ [Fork Picorv32 Repo](https://github.com/sevjaeg/picorv32/tree/master)
++ [Hardware Mockup](mockup.pdf)
++ [FPGA Documentation](https://docs.icebreaker-fpga.org/hardware/icebreaker/)
